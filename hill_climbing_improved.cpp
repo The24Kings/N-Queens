@@ -13,7 +13,7 @@ int minimum_remaining_values(ChessBoard board);
 int randomNum(int min, int max);
 void signalHandler(int signum);
 
-const int BOARD_SIZE = 16;
+const int BOARD_SIZE = 8;
 ChessBoard board(BOARD_SIZE);
 int restarts = 0;
 int h = 0;
